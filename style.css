@@ -1,0 +1,65 @@
+/* ==========================================================================
+   CSS SAMPLE STYLESHEET
+   ========================================================================== */
+
+/* 1. Element Selector: Applies to the entire page body */
+body {
+    background-color: #f4f7f6;     /* Light gray-blue background */
+    color: #333333;                /* Dark gray text color for readability */
+    font-family: Arial, sans-serif;/* Cleans up the typography */
+    line-height: 1.6;              /* Adds space between lines of text */
+    margin: 0;                     /* Removes default browser margins */
+    padding: 20px;                 /* Adds spacing around the page edges */
+}
+
+/* 2. Element Selector: Applies to all <h1> headings */
+h1 {
+    color: #00539f;                /* Deep blue header text */
+    font-size: 2.5rem;             /* Makes the main heading large */
+    margin-bottom: 10px;           /* Pushes content below down slightly */
+    text-align: center;            /* Centers the main headline */
+}
+
+/* 3. Class Selector: Applies to any element with class="card" */
+.card {
+    background-color: #ffffff;     /* White card background */
+    border: 1px solid #dddddd;     /* Subtle light gray border */
+    border-radius: 8px;            /* Rounds the corners of the card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a soft drop shadow */
+    max-width: 400px;              /* Caps the width of the container */
+    padding: 20px;                 /* Spacing inside the card boundaries */
+    margin: 20px auto;             /* Centers the card horizontally */
+}
+
+/* 4. Class Selector: Style variations for elements inside the card */
+.card-title {
+    color: #ff9500;                /* Vibrant orange for card headers */
+    margin-top: 0;                 /* Removes extra spacing at the top */
+}
+
+/* 5. Class Selector: Styled button layout */
+.btn-primary {
+    background-color: #00539f;     /* Matches main header blue */
+    border: none;                  /* Removes the default ugly border */
+    color: white;                  /* White button text */
+    cursor: pointer;               /* Changes the mouse pointer on hover */
+    display: inline-block;         /* Allows padding/margin manipulation */
+    font-size: 1rem;
+    padding: 10px 20px;            /* Generous padding for a larger tap target */
+    text-decoration: none;         /* Removes underline if used on <a> tags */
+    transition: background 0.3s;   /* Smoothly changes color when hovered */
+}
+
+/* 6. Pseudo-class Selector: Alters styling when hovering a button */
+.btn-primary:hover {
+    background-color: #003d73;     /* Darkens the blue when user hovers */
+}
+
+/* 7. ID Selector: Targets one unique element with id="main-footer" */
+#main-footer {
+    border-top: 2px solid #00539f; /* Blue top dividing border */
+    font-size: 0.85rem;            /* Smaller text for footnotes */
+    margin-top: 50px;              /* Pushes it far below upper content */
+    text-align: center;            /* Centers the copyright notice */
+}
+
